@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="tabl">
+        <div class="container">
+          <h2 class="tabl__title">Примеры ответа</h2>
+          <div class="tabl__bottons tabs__links">
+            <a href="#content-1" class="tabl__btn">200</a>
+            <a href="#content-2" class="tabl__btn">400</a>
+            <a href="#content-3" class="tabl__btn">403</a>
+            <a href="#content-4" class="tabl__btn">404</a>
+            <a href="#content-5" class="tabl__btn">409</a>
+            <a href="#content-6" class="tabl__btn">500</a>
+          </div>
+          <div class="tabs">
+            <div class="tabl__task task" id="content-1">
+              <p class="task__title">Content type</p>
+              <p class="task__type">application/json</p>
+              <pre>
+                <code>
+                  {
+                    "item": [
+                    {
+                      "attributes": [
+                      {
+                        "complex_id": 0,
+                        "id": 5076,
+                        "values": [
+                        {
+                </code>
+              </pre>
+              <div class="task__actions">
+                <button class="task__copy">Копировать</button>
+                <button class="task__roll-up">Свернуть всё</button>
+                <button class="task__unwrap">Развернуть всё</button>
+              </div>
+            </div>
+            <div class="tabl__task task" id="content-2">
+              <p class="task__title">Content type2</p>
+              <p class="task__type">application/json2</p>
+              <pre>
+                <code>
+                  {
+                    "item": [
+                    {
+                      "attributes": [
+                      {
+                        "complex_id": 0,
+            
+                </code>
+              </pre>
+              <div class="task__actions">
+                <button class="task__copy">Копировать</button>
+                <button class="task__roll-up">Свернуть всё</button>
+                <button class="task__unwrap">Развернуть всё</button>
+              </div>
+            </div>
+            <div id="content-3">Содержимое 3...</div>
+            <div id="content-4">Содержимое 4...</div>
+            <div id="content-5">Содержимое 5...</div>
+            <div id="content-6">Содержимое 6...</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
